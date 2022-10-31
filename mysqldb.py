@@ -5,8 +5,8 @@ from mysql.connector import errorcode
 import html
 
 #import config/secret store
-import config
-from config import mysqllogin
+#import config
+#from config import mysqllogin
 
 try:
     conn = mysql.connector.connect(user='root',password='', database='cr2800',host='127.0.0.1')
