@@ -1,7 +1,7 @@
 import mysql.connector
 from mysql.connector import errorcode
 
-#add for escaping HTML in input
+#add for escaping HTML in input its important
 import html
 
 #import config/secret store
